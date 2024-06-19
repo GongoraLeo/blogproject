@@ -3,6 +3,9 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
+use App\Mail\ContactoMailable;
+use Illuminate\Support\Facades\Mail;
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -18,3 +21,10 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+// //Ruta para el envio de correos
+// Route::get('contacto', function(){
+//     $correo = new ContactoMailable();
+//     Mail::to('leonardogongora@gmail.com')->send($correo);
+//     return 'Mensaje enviado';
+// });
