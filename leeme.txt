@@ -1,0 +1,29 @@
+planificación blog
+
+front: 
+-página principal domnde se vean las últimas entradas publicadas
+-página de entradas individuales, con posibilidad de poner comentarios
+
+front-back:
+dashboard
+-pág. principal (que muestre las entradas del usuario y las opciones, enlace a perfil de usuario,
+    cambios en el tema como colores o modo oscuro, enlace a crear entrada, modificar, borrar...)
+-perfil usuario
+-crear entrada
+-modificar entrada (desde pág. principal)
+-borrar entrada (desde pág. principal)
+-pág. login y pág. registro
+
+back
+bbdd:
+-usuarios
+-entradas
+-categorias
+-comentarios
+
+tecnologías
+
+-html, css
+-laravel, blade, livewire, tailwind...(tec login)
+-mysql
+
